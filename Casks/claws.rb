@@ -3,7 +3,7 @@ cask "claws" do
   name "claws"
   desc "Terminal UI for AWS resource management"
   homepage "https://github.com/clawscli/claws"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "claws" do
   on_macos do
     on_intel do
       url "https://github.com/clawscli/claws/releases/download/v#{version}/claws-darwin-amd64.tar.gz"
-      sha256 "2b9fffd67146e04512f98135ac050a4635e4b0995f3bb804be08e89a4c068d4f"
+      sha256 "f5308f3f2cd83d92c8c034d1e6214fa55d522a17278f7bb63e599b8742e22acf"
     end
     on_arm do
       url "https://github.com/clawscli/claws/releases/download/v#{version}/claws-darwin-arm64.tar.gz"
-      sha256 "1df455a8db6136ad025e3553d23ce3a41e425de470b72a5866e1deda833cc667"
+      sha256 "f8f14ce16ee5cfe2a1be88157b0eed8df3229bcba05b095911c19912623724d6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/clawscli/claws/releases/download/v#{version}/claws-linux-amd64.tar.gz"
-      sha256 "d0a5fcf1f5941040eee69cb78162100557995694e61c57be48edd85d26170b3b"
+      sha256 "6348835d60bc7d11c2ba10bd95f89d4493215aeae745c57c2909faaf1fb0b5d8"
     end
     on_arm do
       url "https://github.com/clawscli/claws/releases/download/v#{version}/claws-linux-arm64.tar.gz"
-      sha256 "aa5e112bc31ea658918972d640e7481a57d81fe43af9c472ed6ff8720268644c"
+      sha256 "d4e074d1438f00b28d07769101f3596b24aaebbced5b49a46bf8f031a4a35551"
     end
   end
 
